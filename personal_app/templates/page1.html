@@ -1,0 +1,17 @@
+
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Page 1
+{% endblock %}
+
+{% block content %}
+    <h1>Page 1</h1>
+    <p>This is Page 1</p>
+{% endblock %}
+
+{% block styles %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}

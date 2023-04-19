@@ -1,0 +1,804 @@
+{%load static%}
+<html>
+  <body>
+<header>
+<div class="page-wrapper">
+  <div class="nav-wrapper">
+   <div class="grad-bar"></div>
+   <nav class="navbar">
+     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png" alt="Company Logo">
+     <div class="menu-toggle" id="mobile-menu">
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>
+     </div>
+     <ul class="nav no-search">
+       <li class="nav-item"><a href="#">Services</a></li>
+       <li class="nav-item"><a href="#">About</a></li>
+       <li class="nav-item"><a href="#">Blog</a></li>
+       <li class="nav-item"><a href="#">FAQs</a></li>
+       <li class="nav-item"><a href="#">Contact</a></li>
+       <li class="nav-item"><a href="#"  style="margin-right: 25px;">Become Tutor</a></li>
+       <li class="nav-item nav-item-our-deals"><a href="#" style="margin-left: 20px;margin-right: 20px; font-size: 16px; font-weight: bold; color: rgb(88, 142, 196);">Our Deals</a></li>
+       <li class="nav-item"><a href="#" class="hire-expert-btn" style="font-weight: bold; color: white;" >Hire Expert</a></li>
+       <i class="fas fa-search" id="search-icon"></i>
+       <input class="search-input" type="text" placeholder="Search..">
+     </ul>
+   </nav>
+   </div>
+   <div>
+    <section class="headline">
+      <h1>Responsive Navigation</h1>
+      <p>Using CSS grid and flexbox to easily build navbars!</p>
+    </section>
+    
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(231,60,126,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(238,119,82,0.7)"  />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(140,255,140,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(35,166,213,0.5)" />
+        </g>
+    </svg>
+</div>
+
+   
+ </div>
+     <div >
+
+      
+      {% block content %}{% endblock %}
+    </div>
+    <footer>
+  
+<div class="dummy_page">
+</div>
+<!-- FOOTER START -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Products</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Subjects We Cover </h1>
+    <ul>
+      
+      <li>Computer Science</li>
+      <li>Applied Sciences</li>
+      <li>Social Sciences</li>
+      <li>Mathematics</li>
+      <li>Programming</li>
+      <li>Business</li>
+      <li>Management</li>
+      <li>Engineering</li>
+      <li>Physics</li>
+      <li>Chemistry</li>
+      <li>English</li>
+      <li>Biology</li>
+      <li>History</li>
+      <li>Finance</li>
+      <li>Statistics</li>
+      <li>Law</li>
+      <li>Accounting</li>
+      <li>Electronics</li>
+      <li>Psychology</li>
+      <li>Numerical methods</li>
+    </ul>
+  </div>
+  
+  <div class="col social">
+    <h1 style="margin-left: 40px;">Social</h1>
+    <ul>
+      <li style="margin-left: 40px;"><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+      <li ><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+      <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+    </ul>
+  </div>
+  
+<div class="clearfix"></div>
+        <hr>
+    
+
+      </div>
+</div>
+
+</div>
+
+<!-- END OF FOOTER -->
+
+<div class="whatsapp-icon">
+  <a href="https://api.whatsapp.com/send?phone=PHONE_NUMBER&text=MESSAGE" target="_blank"></a>
+</div>
+
+<div>
+
+  <div class="container" style="display: flex; justify-content: space-between; margin: 0 auto;">
+    <div style="  margin-top: 15px; margin-right: 10px">
+      <img src="{% static 'images/mastercard1.png' %}" alt="Description of image" width="160" class="image-class">
+    </div>
+    <div style="  margin-top: 15px; margin-right: 10px">
+      <img src="{% static 'images/visa.png' %}" alt="Description of image" width="80" class="image-class">
+    </div>
+    <div style="  margin-top: 15px; margin-right: 10px">
+      <img src="{% static 'images/wise.png' %}" alt="Description of image" width="100" class="image-class">
+    </div>
+    <div style=" margin-right: 10px">
+      <img src="{% static 'images/payoneer.png' %}" alt="Description of image" width="130" class="image-class">
+    </div>
+    <div style="  margin-top: 15px; margin-right: 10px">
+      <img src="{% static 'images/westernunion.png' %}" alt="Description of image" width="170" class="image-class">
+    </div>
+    <div style="  margin-top: 12px; margin-right: 10px">
+      <img src="{% static 'images/moneygram.png' %}" alt="Description of image" width="180" class="image-class">
+    </div>
+    <div style="  margin-top: 16px; ">
+      <img src="{% static 'images/paypal.png' %}" alt="Description of image" width="100" class="image-class">
+    </div>
+  </div>
+
+
+<div >
+  <div class="row">
+    <div class="col-md-8 col-sm-6 col-xs-12">
+      <p style=" margin-left: 15px; margin-top: 20px; text-align: left; background-color:white ;color: black;" >Copyright &copy; 2017 All Rights Reserved by 
+   <a href="#">Scanfcode</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+    </footer>
+ </header>
+
+
+ 
+ <style>
+
+ header {
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lato', 'Arial', sans-serif;
+ }
+ 
+ /* HEADINGS */
+ 
+ h1, p {
+   color: #fff;
+   text-align: center;
+   line-height: 1.4;
+ }
+ 
+ h1 {
+   font-size: 2.2rem;
+ }
+ 
+ h2 {
+   color: #000;
+   font-size: 1.3rem;
+   text-align: center;
+   line-height: 1.4;
+   margin-bottom: 10px;
+ }
+ 
+ /* BASIC SETUP */
+ 
+ .page-wrapper {
+   width: 100%;
+   height: auto;
+ }
+ 
+ .nav-wrapper {
+   width: 100%;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+   background-color: #fff;
+ }
+ 
+ .grad-bar {
+   width: 100%;
+   height: 5px;
+   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+   background-size: 400% 400%;
+     -webkit-animation: gradbar 15s ease infinite;
+   -moz-animation: gradbar 15s ease infinite;
+   animation: gradbar 15s ease infinite;
+ }
+ 
+ /* NAVIGATION */
+ 
+ .navbar {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   align-items: center;
+   height: 50px;
+   overflow: hidden;
+ }
+ 
+ .navbar img {
+   height: 16px;
+   width: auto;
+   justify-self: start;
+   margin-left: 20px;
+ }
+ 
+ .navbar ul {
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(8,1fr);
+   justify-self: end;
+   
+ }
+ 
+ .nav-item a {
+   color: #000;
+   font-size: 0.9rem;
+   font-weight: 400;
+   text-decoration: none;
+   transition: color 0.3s ease-out;
+ }
+ 
+ .nav-item a:hover {
+   color: #3498db;
+ }
+ 
+ .hire-expert-btn {
+  background-color: rgb(88, 142, 196);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hire-expert-btn:hover {
+  background-color: rgb(64, 112, 156);
+  cursor: pointer;
+}
+
+
+.nav-item-our-deals {
+    animation-name: slide-in;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+ /* SECTIONS */
+ 
+ .headline {
+  width: 100%;
+  height: 35vh;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  border-bottom-left-radius: 50% 30px;
+  border-bottom-right-radius: 50% 30px;
+  border-top-left-radius: 50% 30px;
+  border-top-right-radius: 50% 30px;
+}
+ .waves {
+  transform: rotate(180deg) scale(1, 0.5);
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 5px;
+  margin-top: 0px;
+}
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 4s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 17s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+ .features {
+   width: 100%;
+   height: auto;
+   background-color: #f1f1f1;
+   display: flex;
+   padding: 50px 20px;
+   justify-content: space-around;
+ }
+ 
+ .feature-container {
+   flex-basis: 30%;
+   margin-top: 10px;
+ }
+ 
+ .feature-container p {
+   color: #000;
+   text-align: center;
+   line-height: 1.4;
+   margin-bottom: 15px;
+ }
+ 
+ .feature-container img {
+   width: 100%;
+   margin-bottom: 15px;
+ }
+ 
+ /* SEARCH FUNCTION */
+ 
+ #search-icon {
+   font-size: 0.9rem;
+   margin-top: 3px;
+   margin-left: 15px;
+   transition: color 0.3s ease-out;
+ }
+ 
+ #search-icon:hover {
+   color: #3498db;
+   cursor: pointer;
+ }
+ 
+ .search {
+   transform: translate(-35%);
+   -webkit-transform: translate(-35%);
+   transition: transform 0.7s ease-in-out;
+   color: #3498db;
+ }
+ 
+ .no-search {
+   transform: translate(0);
+   transition: transform 0.7s ease-in-out;
+ }
+ 
+ .search-input {
+   position: absolute;
+   top: -4px;
+   right: -125px;
+   opacity: 0;
+   z-index: -1;
+   transition: opacity 0.6s ease;
+ }
+ 
+ .search-active {
+   opacity: 1;
+   z-index: 0;
+ }
+ 
+ input {
+   border: 0;
+   border-left: 1px solid #ccc;
+   border-radius: 0; /* FOR SAFARI */
+   outline: 0;
+   padding: 5px;
+ }
+ 
+ /* MOBILE MENU & ANIMATION */
+ 
+ .menu-toggle .bar{
+   width: 25px;
+   height: 3px;
+   background-color: #3f3f3f;
+   margin: 5px auto;
+   margin-bottom: 20px;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+ }
+ 
+ .menu-toggle {
+   justify-self: end;
+   margin-right: 25px;
+   display: none;
+ }
+ 
+ .menu-toggle:hover{
+   cursor: pointer;
+ }
+ 
+ #mobile-menu.is-active .bar:nth-child(2){
+   opacity: 0;
+ }
+ 
+ #mobile-menu.is-active .bar:nth-child(1){
+   -webkit-transform: translateY(8px) rotate(45deg);
+   -ms-transform: translateY(8px) rotate(45deg);
+   -o-transform: translateY(8px) rotate(45deg);
+   transform: translateY(8px) rotate(45deg);
+ }
+ 
+
+ #mobile-menu.is-active .bar:nth-child(3){
+   -webkit-transform: translateY(-8px) rotate(-45deg);
+   -ms-transform: translateY(-8px) rotate(-45deg);
+   -o-transform: translateY(-8px) rotate(-45deg);
+   transform: translateY(-8px) rotate(-45deg);
+ }
+ 
+ /* KEYFRAME ANIMATIONS */
+ 
+ @-webkit-keyframes gradbar {
+   0% {
+     background-position: 0% 50%
+   }
+   50% {
+     background-position: 100% 50%
+   }
+   100% {
+     background-position: 0% 50%
+   }
+ }
+ 
+ @-moz-keyframes gradbar {
+   0% {
+     background-position: 0% 50%
+   }
+   50% {
+     background-position: 100% 50%
+   }
+   100% {
+     background-position: 0% 50%
+   }
+ }
+ 
+ @keyframes gradbar {
+   0% {
+     background-position: 0% 50%
+   }
+   50% {
+     background-position: 100% 50%
+   }
+   100% {
+     background-position: 0% 50%
+   }
+ }
+ 
+ /* Media Queries */
+ 
+   /* Mobile Devices - Phones/Tablets */
+ 
+ @media only screen and (max-width: 720px) { 
+   .features {
+     flex-direction: column;
+     padding: 50px;
+   }
+   
+   /* MOBILE HEADINGS */
+   
+   h1 {
+     font-size: 1.9rem;
+   }
+   
+   h2 {
+     font-size: 1rem;
+   }
+   
+   p {
+     font-size: 0.8rem;
+   }
+   
+   /* MOBILE NAVIGATION */
+      
+   .navbar ul {
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+     justify-content: start;
+     top: 55px;
+     background-color: #fff;
+     width: 100%;
+     height: calc(100vh - 55px);
+     transform: translate(-101%);
+     text-align: center;
+     overflow: hidden;
+   }
+   
+   .navbar li {
+     padding: 15px;
+   }
+   
+   .navbar li:first-child {
+     margin-top: 50px;
+   }
+   
+   .navbar li a {
+     font-size: 1rem;
+   }
+    
+   .menu-toggle, .bar {
+     display: block;
+     cursor: pointer;
+   }
+   
+   .mobile-nav {
+   transform: translate(0%)!important;
+ }
+   
+   /* SECTIONS */
+
+     
+   .feature-container p {
+     margin-bottom: 25px;
+   }
+   
+   .feature-container {
+     margin-top: 20px;
+   }
+   
+   .feature-container:nth-child(2) {
+     order: -1;
+   }
+   
+   /* SEARCH DISABLED ON MOBILE */
+   
+   #search-icon {
+     display: none;
+   }
+   
+   .search-input {
+   display: none;
+  }
+   
+ }
+ /* Add WhatsApp icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 120px;
+  right: 0px;
+  background-image: url('/static/images/icon.png');
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Add transition effect */
+}
+
+/* Add WhatsApp chat link */
+.whatsapp-icon a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Change background image on hover */
+.whatsapp-icon:hover {
+  transform:  scale(1.2);;
+}
+
+
+
+hr {
+			border-color: #999999; /* set the border color to red */}
+
+/* REMOVE THIS, USE YOUR OWN  */
+
+.dummy_page {
+  z-index: 1;
+  position:relative;
+
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 300px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+  text-align: left;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+ </style>
+ 
+ 
+ <script>
+ ("#search-icon").click(function() {
+   (".nav").toggleClass("search");
+   (".nav").toggleClass("no-search");
+   (".search-input").toggleClass("search-active");
+ });
+ 
+ ('.menu-toggle').click(function(){
+    (".nav").toggleClass("mobile-nav");
+    (this).toggleClass("is-active");
+ });
+ 
+ </script>
+
+
+<script src="{% static 'js/main.js' %}"></script>
+<script>
+  document.querySelector('.whatsapp-icon').addEventListener('click', function() {
+    window.open('https://wa.me/923037989735', '_blank');
+  });
+</script>
+<!--Start of Tawk.to Script-->
+<!--<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/643a86fe4247f20fefebcb06/1gu29ul25';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>-->
+<!--End of Tawk.to Script-->
+<script src="//code.tidio.co/ykvsdp1oeaebmouflkezldjnamvago9u.js" async></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% load static %}
+
+<style>
+</style>
