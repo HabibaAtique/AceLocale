@@ -1,1 +1,1 @@
-web: gunicorn assignment_help.wsgi:personal_app
+web: gunicorn assignment_help.wsgi
