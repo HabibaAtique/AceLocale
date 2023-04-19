@@ -1,1 +1,1 @@
-web:gunicorn CCMS.wsgi --log-file -
+web:gunicorn assignment_help.wsgi --log-file -
